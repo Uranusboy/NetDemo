@@ -1,0 +1,14 @@
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\Web.dll.config
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\Web.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\Web.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\obj\Debug\Web.csprojAssemblyReference.cache
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\obj\Debug\Web.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\obj\Debug\Web.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\Common.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\ManageService.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\DataServices.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\MySql.Data.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\Common.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\ManageService.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\bin\DataServices.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Web\obj\Debug\Web.csproj.CopyComplete

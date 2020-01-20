@@ -1,0 +1,260 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,jQuery,CSS,HTML,RWD,Dashboard">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>表单</title>
+
+    <!-- Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <header class="app-header navbar">
+        <!--移动端时出-->
+        <button class="navbar-toggler mobile-sidebar-toggler hidden-lg-up" type="button">☰</button>
+        <!--顶部左边导向 -->
+        <a class="navbar-brand" href="#"></a>
+        <ul class="nav navbar-nav hidden-md-down">
+            <li class="nav-item">
+                <a class="nav-link navbar-toggler sidebar-toggler" href="#">☰</a>
+            </li>
+            <li class="nav-item px-1">
+                <a class="nav-link" href="#">基础信息</a>
+            </li>
+            <li class="nav-item px-1">
+                <a class="nav-link" href="#">党团学工</a>
+            </li>
+            <li class="nav-item px-1">
+                <a class="nav-link" href="#">新闻中心</a>
+            </li>
+            <li class="nav-item px-1">
+                <a class="nav-link" href="SystemUserSet/SystemUserList.html">用户管理</a>
+            </li>
+        </ul>
+        <!--顶部右边导向-->
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <!--用户头像-->
+                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img src="img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                    <span class="hidden-md-down">admin</span>
+                </a>
+                <!--下拉-->
+                <div class="dropdown-menu dropdown-menu-right">
+                    <!--下拉标题-->
+                    <div class="dropdown-header text-center">
+                        <strong>Account</strong>
+                    </div>
+                    <a class="dropdown-item" href="#"><i class="fa fa-bell-o"></i> Updates<span class="badge badge-info">42</span></a>
+                    <a class="dropdown-item" href="#"><i class="fa fa-envelope-o"></i> Messages<span class="badge badge-success">42</span></a>
+                    <!--下拉标题-->
+                    <div class="dropdown-header text-center">
+                        <strong>Settings</strong>
+                    </div>
+                    <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a>
+                    <a class="dropdown-item" href="#"><i class="fa fa-shield"></i> Lock Account</a>
+                </div>
+            </li>
+            <!--最右边图片-->
+            <!--<li class="nav-item hidden-md-down">
+                <a class="nav-link navbar-toggler aside-menu-toggler" href="#">☰</a>
+            </li>-->
+        </ul>
+    </header>
+    <!--左边导向-->
+    <div class="app-body">
+        <div class="sidebar">
+            <!--左边导向-->
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-title">
+                        菜单标题
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> 系统用户管理</a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="1_tables.html" target="_top"><i class="icon-star"></i> 表格</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="2_forms.html" target="_top"><i class="icon-star"></i> 表单</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" target="_top"><i class="icon-star"></i> xxx</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" target="_top"><i class="icon-star"></i> xxxx</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main content -->
+        <main class="main">
+
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">主页</li>
+                <li class="breadcrumb-item">
+                    <a href="#">后台管理</a>
+                </li>
+                <li class="breadcrumb-item active">当前位置</li>
+
+                <!-- Breadcrumb Menu-->                
+            </ol>
+
+
+            <div class="container-fluid">
+                <div class="animated fadeIn">
+                    <!--表格-->
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Company</strong>
+                            <small>Form</small>
+                        </div>
+                        <div class="card-block">
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" class="form-control" id="company" placeholder="Enter your company name">
+                                <label class="form-control-label">请在这里输入你合法的公司全称</label>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="vat">VAT</label>
+                                <input type="text" class="form-control" id="vat" placeholder="PL1234567890">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="street">Street</label>
+                                <input type="text" class="form-control" id="street" placeholder="Enter street name">
+                            </div>
+
+                            <div class="row">
+
+                                <div class="form-group col-sm-8">
+                                    <label for="city">City</label>
+                                    <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                                </div>
+
+                                <div class="form-group col-sm-4">
+                                    <label for="postal-code">Postal Code</label>
+                                    <input type="text" class="form-control" id="postal-code" placeholder="Postal Code">
+                                </div>
+
+                            </div>
+                            <!--/.row-->
+
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <input type="text" class="form-control" id="country" placeholder="Country name">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+                            <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#successModal">
+                                操作成功
+                            </button>
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#dangerModal">
+                                操作失败
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.conainer-fluid -->
+        </main>
+
+        <!--弹出操作成功对话框-->
+        <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-success" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal title</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body…</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+        <!--弹出操作失败对话框-->
+        <div class="modal fade" id="dangerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-danger" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal title</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body…</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+
+    </div>
+
+    <footer class="app-footer">
+       
+    </footer>
+
+    <!-- Bootstrap and necessary plugins -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/tether/dist/js/tether.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/pace/pace.min.js"></script>
+
+
+    <!-- Plugins and scripts required by all views -->
+    <script src="bower_components/chart.js/dist/Chart.min.js"></script>
+
+
+    <!-- GenesisUI main scripts -->
+
+    <script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>

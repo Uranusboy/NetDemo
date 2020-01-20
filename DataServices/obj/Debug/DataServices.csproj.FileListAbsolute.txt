@@ -1,0 +1,7 @@
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\bin\Debug\DataServices.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\bin\Debug\DataServices.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\bin\Debug\MySql.Data.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\obj\Debug\DataServices.csprojAssemblyReference.cache
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\obj\Debug\DataServices.csproj.CopyComplete
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\obj\Debug\DataServices.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\DataServices\obj\Debug\DataServices.pdb

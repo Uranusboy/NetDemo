@@ -1,0 +1,5 @@
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Common\bin\Debug\Common.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Common\bin\Debug\Common.pdb
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Common\obj\Debug\Common.dll
+C:\Users\HUAWEI\Desktop\DEMO\NetDemo\Common\obj\Debug\Common.pdb
